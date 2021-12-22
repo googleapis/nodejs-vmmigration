@@ -2,7 +2,7 @@
   "name": "@google-cloud/vmmigration",
   "version": "0.1.0",
   "description": "vmmigration client for Node.js",
-  "repository": "googleapis/googleapis/nodejs-vmmigration",
+  "repository": "googleapis/nodejs-vmmigration",
   "license": "Apache-2.0",
   "author": "Google LLC",
   "main": "build/src/index.js",
@@ -34,7 +34,10 @@
     "lint": "gts check",
     "prepare": "npm run compile-protos && npm run compile",
     "system-test": "c8 mocha build/system-test",
-    "test": "c8 mocha build/test"
+    "test": "c8 mocha build/test",
+    "samples-test": "cd samples/ && npm link ../ && npm test && cd ../",
+    "prelint": "cd samples; npm link ../; npm install",
+    "precompile": "gts clean"
   },
   "dependencies": {
     "google-gax": "^2.12.0"
