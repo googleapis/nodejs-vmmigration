@@ -652,301 +652,301 @@ export namespace google {
                 namespace VmMigration {
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#listSources}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|listSources}.
                      * @param error Error, if any
                      * @param [response] ListSourcesResponse
                      */
                     type ListSourcesCallback = (error: (Error|null), response?: google.cloud.vmmigration.v1.ListSourcesResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#getSource}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|getSource}.
                      * @param error Error, if any
                      * @param [response] Source
                      */
                     type GetSourceCallback = (error: (Error|null), response?: google.cloud.vmmigration.v1.Source) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#createSource}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|createSource}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateSourceCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#updateSource}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|updateSource}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type UpdateSourceCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#deleteSource}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|deleteSource}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type DeleteSourceCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#fetchInventory}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|fetchInventory}.
                      * @param error Error, if any
                      * @param [response] FetchInventoryResponse
                      */
                     type FetchInventoryCallback = (error: (Error|null), response?: google.cloud.vmmigration.v1.FetchInventoryResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#listUtilizationReports}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|listUtilizationReports}.
                      * @param error Error, if any
                      * @param [response] ListUtilizationReportsResponse
                      */
                     type ListUtilizationReportsCallback = (error: (Error|null), response?: google.cloud.vmmigration.v1.ListUtilizationReportsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#getUtilizationReport}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|getUtilizationReport}.
                      * @param error Error, if any
                      * @param [response] UtilizationReport
                      */
                     type GetUtilizationReportCallback = (error: (Error|null), response?: google.cloud.vmmigration.v1.UtilizationReport) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#createUtilizationReport}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|createUtilizationReport}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateUtilizationReportCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#deleteUtilizationReport}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|deleteUtilizationReport}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type DeleteUtilizationReportCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#listDatacenterConnectors}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|listDatacenterConnectors}.
                      * @param error Error, if any
                      * @param [response] ListDatacenterConnectorsResponse
                      */
                     type ListDatacenterConnectorsCallback = (error: (Error|null), response?: google.cloud.vmmigration.v1.ListDatacenterConnectorsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#getDatacenterConnector}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|getDatacenterConnector}.
                      * @param error Error, if any
                      * @param [response] DatacenterConnector
                      */
                     type GetDatacenterConnectorCallback = (error: (Error|null), response?: google.cloud.vmmigration.v1.DatacenterConnector) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#createDatacenterConnector}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|createDatacenterConnector}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateDatacenterConnectorCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#deleteDatacenterConnector}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|deleteDatacenterConnector}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type DeleteDatacenterConnectorCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#createMigratingVm}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|createMigratingVm}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateMigratingVmCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#listMigratingVms}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|listMigratingVms}.
                      * @param error Error, if any
                      * @param [response] ListMigratingVmsResponse
                      */
                     type ListMigratingVmsCallback = (error: (Error|null), response?: google.cloud.vmmigration.v1.ListMigratingVmsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#getMigratingVm}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|getMigratingVm}.
                      * @param error Error, if any
                      * @param [response] MigratingVm
                      */
                     type GetMigratingVmCallback = (error: (Error|null), response?: google.cloud.vmmigration.v1.MigratingVm) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#updateMigratingVm}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|updateMigratingVm}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type UpdateMigratingVmCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#deleteMigratingVm}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|deleteMigratingVm}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type DeleteMigratingVmCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#startMigration}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|startMigration}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type StartMigrationCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#resumeMigration}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|resumeMigration}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type ResumeMigrationCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#pauseMigration}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|pauseMigration}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type PauseMigrationCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#finalizeMigration}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|finalizeMigration}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type FinalizeMigrationCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#createCloneJob}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|createCloneJob}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateCloneJobCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#cancelCloneJob}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|cancelCloneJob}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CancelCloneJobCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#listCloneJobs}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|listCloneJobs}.
                      * @param error Error, if any
                      * @param [response] ListCloneJobsResponse
                      */
                     type ListCloneJobsCallback = (error: (Error|null), response?: google.cloud.vmmigration.v1.ListCloneJobsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#getCloneJob}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|getCloneJob}.
                      * @param error Error, if any
                      * @param [response] CloneJob
                      */
                     type GetCloneJobCallback = (error: (Error|null), response?: google.cloud.vmmigration.v1.CloneJob) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#createCutoverJob}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|createCutoverJob}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateCutoverJobCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#cancelCutoverJob}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|cancelCutoverJob}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CancelCutoverJobCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#listCutoverJobs}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|listCutoverJobs}.
                      * @param error Error, if any
                      * @param [response] ListCutoverJobsResponse
                      */
                     type ListCutoverJobsCallback = (error: (Error|null), response?: google.cloud.vmmigration.v1.ListCutoverJobsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#getCutoverJob}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|getCutoverJob}.
                      * @param error Error, if any
                      * @param [response] CutoverJob
                      */
                     type GetCutoverJobCallback = (error: (Error|null), response?: google.cloud.vmmigration.v1.CutoverJob) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#listGroups}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|listGroups}.
                      * @param error Error, if any
                      * @param [response] ListGroupsResponse
                      */
                     type ListGroupsCallback = (error: (Error|null), response?: google.cloud.vmmigration.v1.ListGroupsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#getGroup}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|getGroup}.
                      * @param error Error, if any
                      * @param [response] Group
                      */
                     type GetGroupCallback = (error: (Error|null), response?: google.cloud.vmmigration.v1.Group) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#createGroup}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|createGroup}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateGroupCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#updateGroup}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|updateGroup}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type UpdateGroupCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#deleteGroup}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|deleteGroup}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type DeleteGroupCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#addGroupMigration}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|addGroupMigration}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type AddGroupMigrationCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#removeGroupMigration}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|removeGroupMigration}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type RemoveGroupMigrationCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#listTargetProjects}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|listTargetProjects}.
                      * @param error Error, if any
                      * @param [response] ListTargetProjectsResponse
                      */
                     type ListTargetProjectsCallback = (error: (Error|null), response?: google.cloud.vmmigration.v1.ListTargetProjectsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#getTargetProject}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|getTargetProject}.
                      * @param error Error, if any
                      * @param [response] TargetProject
                      */
                     type GetTargetProjectCallback = (error: (Error|null), response?: google.cloud.vmmigration.v1.TargetProject) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#createTargetProject}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|createTargetProject}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateTargetProjectCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#updateTargetProject}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|updateTargetProject}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type UpdateTargetProjectCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#deleteTargetProject}.
+                     * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|deleteTargetProject}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
@@ -12446,6 +12446,9 @@ export namespace google {
             /** FieldOptions lazy */
             lazy?: (boolean|null);
 
+            /** FieldOptions unverifiedLazy */
+            unverifiedLazy?: (boolean|null);
+
             /** FieldOptions deprecated */
             deprecated?: (boolean|null);
 
@@ -12482,6 +12485,9 @@ export namespace google {
 
             /** FieldOptions lazy. */
             public lazy: boolean;
+
+            /** FieldOptions unverifiedLazy. */
+            public unverifiedLazy: boolean;
 
             /** FieldOptions deprecated. */
             public deprecated: boolean;
@@ -14284,35 +14290,35 @@ export namespace google {
         namespace Operations {
 
             /**
-             * Callback as used by {@link google.longrunning.Operations#listOperations}.
+             * Callback as used by {@link google.longrunning.Operations|listOperations}.
              * @param error Error, if any
              * @param [response] ListOperationsResponse
              */
             type ListOperationsCallback = (error: (Error|null), response?: google.longrunning.ListOperationsResponse) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations#getOperation}.
+             * Callback as used by {@link google.longrunning.Operations|getOperation}.
              * @param error Error, if any
              * @param [response] Operation
              */
             type GetOperationCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations#deleteOperation}.
+             * Callback as used by {@link google.longrunning.Operations|deleteOperation}.
              * @param error Error, if any
              * @param [response] Empty
              */
             type DeleteOperationCallback = (error: (Error|null), response?: google.protobuf.Empty) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations#cancelOperation}.
+             * Callback as used by {@link google.longrunning.Operations|cancelOperation}.
              * @param error Error, if any
              * @param [response] Empty
              */
             type CancelOperationCallback = (error: (Error|null), response?: google.protobuf.Empty) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations#waitOperation}.
+             * Callback as used by {@link google.longrunning.Operations|waitOperation}.
              * @param error Error, if any
              * @param [response] Operation
              */

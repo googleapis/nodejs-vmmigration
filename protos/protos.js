@@ -99,7 +99,7 @@
                         };
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#listSources}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|listSources}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef ListSourcesCallback
                          * @type {function}
@@ -132,7 +132,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#getSource}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|getSource}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef GetSourceCallback
                          * @type {function}
@@ -165,7 +165,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#createSource}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|createSource}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef CreateSourceCallback
                          * @type {function}
@@ -198,7 +198,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#updateSource}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|updateSource}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef UpdateSourceCallback
                          * @type {function}
@@ -231,7 +231,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#deleteSource}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|deleteSource}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef DeleteSourceCallback
                          * @type {function}
@@ -264,7 +264,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#fetchInventory}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|fetchInventory}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef FetchInventoryCallback
                          * @type {function}
@@ -297,7 +297,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#listUtilizationReports}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|listUtilizationReports}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef ListUtilizationReportsCallback
                          * @type {function}
@@ -330,7 +330,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#getUtilizationReport}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|getUtilizationReport}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef GetUtilizationReportCallback
                          * @type {function}
@@ -363,7 +363,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#createUtilizationReport}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|createUtilizationReport}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef CreateUtilizationReportCallback
                          * @type {function}
@@ -396,7 +396,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#deleteUtilizationReport}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|deleteUtilizationReport}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef DeleteUtilizationReportCallback
                          * @type {function}
@@ -429,7 +429,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#listDatacenterConnectors}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|listDatacenterConnectors}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef ListDatacenterConnectorsCallback
                          * @type {function}
@@ -462,7 +462,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#getDatacenterConnector}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|getDatacenterConnector}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef GetDatacenterConnectorCallback
                          * @type {function}
@@ -495,7 +495,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#createDatacenterConnector}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|createDatacenterConnector}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef CreateDatacenterConnectorCallback
                          * @type {function}
@@ -528,7 +528,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#deleteDatacenterConnector}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|deleteDatacenterConnector}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef DeleteDatacenterConnectorCallback
                          * @type {function}
@@ -561,7 +561,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#createMigratingVm}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|createMigratingVm}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef CreateMigratingVmCallback
                          * @type {function}
@@ -594,7 +594,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#listMigratingVms}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|listMigratingVms}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef ListMigratingVmsCallback
                          * @type {function}
@@ -627,7 +627,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#getMigratingVm}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|getMigratingVm}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef GetMigratingVmCallback
                          * @type {function}
@@ -660,7 +660,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#updateMigratingVm}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|updateMigratingVm}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef UpdateMigratingVmCallback
                          * @type {function}
@@ -693,7 +693,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#deleteMigratingVm}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|deleteMigratingVm}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef DeleteMigratingVmCallback
                          * @type {function}
@@ -726,7 +726,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#startMigration}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|startMigration}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef StartMigrationCallback
                          * @type {function}
@@ -759,7 +759,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#resumeMigration}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|resumeMigration}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef ResumeMigrationCallback
                          * @type {function}
@@ -792,7 +792,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#pauseMigration}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|pauseMigration}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef PauseMigrationCallback
                          * @type {function}
@@ -825,7 +825,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#finalizeMigration}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|finalizeMigration}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef FinalizeMigrationCallback
                          * @type {function}
@@ -858,7 +858,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#createCloneJob}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|createCloneJob}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef CreateCloneJobCallback
                          * @type {function}
@@ -891,7 +891,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#cancelCloneJob}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|cancelCloneJob}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef CancelCloneJobCallback
                          * @type {function}
@@ -924,7 +924,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#listCloneJobs}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|listCloneJobs}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef ListCloneJobsCallback
                          * @type {function}
@@ -957,7 +957,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#getCloneJob}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|getCloneJob}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef GetCloneJobCallback
                          * @type {function}
@@ -990,7 +990,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#createCutoverJob}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|createCutoverJob}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef CreateCutoverJobCallback
                          * @type {function}
@@ -1023,7 +1023,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#cancelCutoverJob}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|cancelCutoverJob}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef CancelCutoverJobCallback
                          * @type {function}
@@ -1056,7 +1056,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#listCutoverJobs}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|listCutoverJobs}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef ListCutoverJobsCallback
                          * @type {function}
@@ -1089,7 +1089,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#getCutoverJob}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|getCutoverJob}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef GetCutoverJobCallback
                          * @type {function}
@@ -1122,7 +1122,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#listGroups}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|listGroups}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef ListGroupsCallback
                          * @type {function}
@@ -1155,7 +1155,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#getGroup}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|getGroup}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef GetGroupCallback
                          * @type {function}
@@ -1188,7 +1188,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#createGroup}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|createGroup}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef CreateGroupCallback
                          * @type {function}
@@ -1221,7 +1221,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#updateGroup}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|updateGroup}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef UpdateGroupCallback
                          * @type {function}
@@ -1254,7 +1254,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#deleteGroup}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|deleteGroup}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef DeleteGroupCallback
                          * @type {function}
@@ -1287,7 +1287,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#addGroupMigration}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|addGroupMigration}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef AddGroupMigrationCallback
                          * @type {function}
@@ -1320,7 +1320,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#removeGroupMigration}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|removeGroupMigration}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef RemoveGroupMigrationCallback
                          * @type {function}
@@ -1353,7 +1353,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#listTargetProjects}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|listTargetProjects}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef ListTargetProjectsCallback
                          * @type {function}
@@ -1386,7 +1386,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#getTargetProject}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|getTargetProject}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef GetTargetProjectCallback
                          * @type {function}
@@ -1419,7 +1419,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#createTargetProject}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|createTargetProject}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef CreateTargetProjectCallback
                          * @type {function}
@@ -1452,7 +1452,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#updateTargetProject}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|updateTargetProject}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef UpdateTargetProjectCallback
                          * @type {function}
@@ -1485,7 +1485,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration#deleteTargetProject}.
+                         * Callback as used by {@link google.cloud.vmmigration.v1.VmMigration|deleteTargetProject}.
                          * @memberof google.cloud.vmmigration.v1.VmMigration
                          * @typedef DeleteTargetProjectCallback
                          * @type {function}
@@ -30851,6 +30851,7 @@
                  * @property {boolean|null} [packed] FieldOptions packed
                  * @property {google.protobuf.FieldOptions.JSType|null} [jstype] FieldOptions jstype
                  * @property {boolean|null} [lazy] FieldOptions lazy
+                 * @property {boolean|null} [unverifiedLazy] FieldOptions unverifiedLazy
                  * @property {boolean|null} [deprecated] FieldOptions deprecated
                  * @property {boolean|null} [weak] FieldOptions weak
                  * @property {Array.<google.protobuf.IUninterpretedOption>|null} [uninterpretedOption] FieldOptions uninterpretedOption
@@ -30906,6 +30907,14 @@
                  * @instance
                  */
                 FieldOptions.prototype.lazy = false;
+    
+                /**
+                 * FieldOptions unverifiedLazy.
+                 * @member {boolean} unverifiedLazy
+                 * @memberof google.protobuf.FieldOptions
+                 * @instance
+                 */
+                FieldOptions.prototype.unverifiedLazy = false;
     
                 /**
                  * FieldOptions deprecated.
@@ -30983,6 +30992,8 @@
                         writer.uint32(/* id 6, wireType 0 =*/48).int32(message.jstype);
                     if (message.weak != null && Object.hasOwnProperty.call(message, "weak"))
                         writer.uint32(/* id 10, wireType 0 =*/80).bool(message.weak);
+                    if (message.unverifiedLazy != null && Object.hasOwnProperty.call(message, "unverifiedLazy"))
+                        writer.uint32(/* id 15, wireType 0 =*/120).bool(message.unverifiedLazy);
                     if (message.uninterpretedOption != null && message.uninterpretedOption.length)
                         for (var i = 0; i < message.uninterpretedOption.length; ++i)
                             $root.google.protobuf.UninterpretedOption.encode(message.uninterpretedOption[i], writer.uint32(/* id 999, wireType 2 =*/7994).fork()).ldelim();
@@ -31039,6 +31050,9 @@
                             break;
                         case 5:
                             message.lazy = reader.bool();
+                            break;
+                        case 15:
+                            message.unverifiedLazy = reader.bool();
                             break;
                         case 3:
                             message.deprecated = reader.bool();
@@ -31123,6 +31137,9 @@
                     if (message.lazy != null && message.hasOwnProperty("lazy"))
                         if (typeof message.lazy !== "boolean")
                             return "lazy: boolean expected";
+                    if (message.unverifiedLazy != null && message.hasOwnProperty("unverifiedLazy"))
+                        if (typeof message.unverifiedLazy !== "boolean")
+                            return "unverifiedLazy: boolean expected";
                     if (message.deprecated != null && message.hasOwnProperty("deprecated"))
                         if (typeof message.deprecated !== "boolean")
                             return "deprecated: boolean expected";
@@ -31208,6 +31225,8 @@
                     }
                     if (object.lazy != null)
                         message.lazy = Boolean(object.lazy);
+                    if (object.unverifiedLazy != null)
+                        message.unverifiedLazy = Boolean(object.unverifiedLazy);
                     if (object.deprecated != null)
                         message.deprecated = Boolean(object.deprecated);
                     if (object.weak != null)
@@ -31295,6 +31314,7 @@
                         object.lazy = false;
                         object.jstype = options.enums === String ? "JS_NORMAL" : 0;
                         object.weak = false;
+                        object.unverifiedLazy = false;
                         object[".google.api.resourceReference"] = null;
                     }
                     if (message.ctype != null && message.hasOwnProperty("ctype"))
@@ -31309,6 +31329,8 @@
                         object.jstype = options.enums === String ? $root.google.protobuf.FieldOptions.JSType[message.jstype] : message.jstype;
                     if (message.weak != null && message.hasOwnProperty("weak"))
                         object.weak = message.weak;
+                    if (message.unverifiedLazy != null && message.hasOwnProperty("unverifiedLazy"))
+                        object.unverifiedLazy = message.unverifiedLazy;
                     if (message.uninterpretedOption && message.uninterpretedOption.length) {
                         object.uninterpretedOption = [];
                         for (var j = 0; j < message.uninterpretedOption.length; ++j)
@@ -35421,7 +35443,7 @@
                 };
     
                 /**
-                 * Callback as used by {@link google.longrunning.Operations#listOperations}.
+                 * Callback as used by {@link google.longrunning.Operations|listOperations}.
                  * @memberof google.longrunning.Operations
                  * @typedef ListOperationsCallback
                  * @type {function}
@@ -35454,7 +35476,7 @@
                  */
     
                 /**
-                 * Callback as used by {@link google.longrunning.Operations#getOperation}.
+                 * Callback as used by {@link google.longrunning.Operations|getOperation}.
                  * @memberof google.longrunning.Operations
                  * @typedef GetOperationCallback
                  * @type {function}
@@ -35487,7 +35509,7 @@
                  */
     
                 /**
-                 * Callback as used by {@link google.longrunning.Operations#deleteOperation}.
+                 * Callback as used by {@link google.longrunning.Operations|deleteOperation}.
                  * @memberof google.longrunning.Operations
                  * @typedef DeleteOperationCallback
                  * @type {function}
@@ -35520,7 +35542,7 @@
                  */
     
                 /**
-                 * Callback as used by {@link google.longrunning.Operations#cancelOperation}.
+                 * Callback as used by {@link google.longrunning.Operations|cancelOperation}.
                  * @memberof google.longrunning.Operations
                  * @typedef CancelOperationCallback
                  * @type {function}
@@ -35553,7 +35575,7 @@
                  */
     
                 /**
-                 * Callback as used by {@link google.longrunning.Operations#waitOperation}.
+                 * Callback as used by {@link google.longrunning.Operations|waitOperation}.
                  * @memberof google.longrunning.Operations
                  * @typedef WaitOperationCallback
                  * @type {function}
