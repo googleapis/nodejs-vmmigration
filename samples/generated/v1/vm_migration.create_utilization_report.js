@@ -34,8 +34,8 @@ function main(parent, utilizationReport, utilizationReportId) {
    */
   // const utilizationReport = {}
   /**
-   *  Required. The ID to use for the report, which will become the final component of
-   *  the reports's resource name.
+   *  Required. The ID to use for the report, which will become the final
+   *  component of the reports's resource name.
    *  This value maximum length is 63 characters, and valid characters
    *  are /[a-z][0-9]-/. It must start with an english letter and must not
    *  end with a hyphen.
