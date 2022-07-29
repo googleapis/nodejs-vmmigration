@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.0](https://github.com/googleapis/nodejs-vmmigration/compare/v2.1.0...v2.2.0) (2022-07-29)
+
+
+### Features
+
+* add upgrade appliance method, update other methods ([#53](https://github.com/googleapis/nodejs-vmmigration/issues/53)) ([5271100](https://github.com/googleapis/nodejs-vmmigration/commit/5271100c96928df3fd032e64718c19522c66d99e))
+
 ## [2.1.0](https://github.com/googleapis/nodejs-vmmigration/compare/v2.0.0...v2.1.0) (2022-07-13)
 
 
